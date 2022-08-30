@@ -1,0 +1,280 @@
+{
+	"code": 200,
+	"msg": "获取菜单成功",
+	"data": [{
+			"id": 1,
+
+			"mname": "首页",
+
+			"murl": "/index",
+
+			"ask_off": "el-icon-house",
+
+			"tier": 1,
+
+			"son": []
+
+		},
+		{
+			"id": 2,
+
+			"mname": "基础配置",
+
+			"murl": "/basics",
+
+			"ask_off": "el-icon-setting",
+
+			"tier": 2,
+
+			"son": [{
+					"id": 3,
+
+					"mname": "用户管理",
+
+					"murl": "/user",
+
+					"sort": "2-1",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 4,
+
+					"mname": "角色管理",
+
+					"murl": "/role",
+
+					"sort": "2-2",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 5,
+
+					"mname": "菜单管理",
+
+					"murl": "/menu",
+
+					"sort": "2-3",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 6,
+
+					"mname": "部门管理",
+
+					"murl": "/department",
+
+					"sort": "2-4",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 7,
+
+					"mname": "岗位管理",
+
+					"murl": "/job",
+
+					"sort": "2-5",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 8,
+
+					"mname": "职级管理",
+
+					"murl": "/rank",
+
+					"sort": "2-6",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 9,
+
+					"mname": "操作日志",
+
+					"murl": "/operationlog",
+
+					"sort": "2-7",
+
+					"parent_id": 2
+
+				},
+				{
+					"id": 10,
+
+					"mname": "登路日志",
+
+					"murl": "/loginlog",
+
+					"sort": "2-8",
+
+					"parent_id": 2
+
+				}
+			]
+
+		},
+		{
+			"id": 11,
+
+			"mname": "配置工作流",
+
+			"murl": "/workflow",
+
+			"ask_off": "el-icon-notebook-2",
+
+			"tier": 3,
+
+			"son": [{
+					"id": 12,
+
+					"mname": "配置审批流程",
+
+					"murl": "/approvalprocess",
+
+					"sort": "3-1",
+
+					"parent_id": 11
+
+				},
+				{
+					"id": 13,
+
+					"mname": "配置审批类型",
+
+					"murl": "/approvaltype",
+
+					"sort": "3-2",
+
+					"parent_id": 11
+
+				}
+			]
+
+		},
+		{
+			"id": 14,
+
+			"mname": "材料管理",
+
+			"murl": "/materials",
+
+			"ask_off": "el-icon-data-analysis",
+
+			"tier": 4,
+
+			"son": [{
+				"id": 15,
+
+				"mname": "材料管理",
+
+				"murl": "/sonmaterials",
+
+				"sort": "4-1",
+
+				"parent_id": 14
+
+			}]
+
+		},
+		{
+			"id": 16,
+
+			"mname": "企业通讯",
+
+			"murl": "/communication",
+
+			"ask_off": "el-icon-chat-square",
+
+			"tier": 5,
+
+			"son": [{
+					"id": 17,
+
+					"mname": "邮件处理",
+
+					"murl": "/mail",
+
+					"sort": "5-1",
+
+					"parent_id": 16
+
+				},
+				{
+					"id": 18,
+
+					"mname": "工资条录入",
+
+					"murl": "/payslip",
+
+					"sort": "5-2",
+
+					"parent_id": 16
+
+				}
+			]
+
+		},
+		{
+			"id": 20,
+
+			"mname": "OA审批",
+
+			"murl": "/oaapproval",
+
+			"ask_off": "el-icon-user",
+
+			"tier": 7,
+
+			"son": [{
+					"id": 21,
+
+					"mname": "待办事项",
+
+					"murl": "/agency",
+
+					"sort": "7-1",
+
+					"parent_id": 20
+
+				},
+				{
+					"id": 22,
+
+					"mname": "已办事项",
+
+					"murl": "/done",
+
+					"sort": "7-2",
+
+					"parent_id": 20
+
+				},
+				{
+					"id": 23,
+
+					"mname": "我发起的",
+
+					"murl": "/launch",
+
+					"sort": "7-3",
+
+					"parent_id": 20
+
+				}
+			]
+
+		}
+	]
+}

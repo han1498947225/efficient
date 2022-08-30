@@ -1,0 +1,10 @@
+{
+	"code": 200,
+	"msg": "登录成功",
+	"data": {
+		"id": 4,
+		"role_name": "超级管理员"
+	},
+	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwicm9sZV9pZCI6MSwiZXhwIjoxNjYxNzY0NDY4fQ.D7U-r8xmMPXNHecNDLhTdVShl76EnH6g2aIx-PkoB0Y"
+
+}
